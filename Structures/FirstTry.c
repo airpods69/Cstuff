@@ -9,8 +9,8 @@ int main()
 	printf("Enter names, price and pages of 3 books\n");
 
 	scanf("%c %f %i", &b1.name, &b1.price, &b1.pages);
-	scanf("%c %f %i", &b2.name, &b2.price, &b2.pages);
-	scanf("%c %f %i", &b3.name, &b3.price, &b3.pages);
+	scanf(" %c %f %i", &b2.name, &b2.price, &b2.pages);
+	scanf(" %c %f %i", &b3.name, &b3.price, &b3.pages);
 
 	printf("this is what has been entered:\n");
 
