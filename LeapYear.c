@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void Leap(int year);
+void Leap(int);
 int main()
 {
     int year;
