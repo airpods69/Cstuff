@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Fact(int n);
+int Fact(int);
 int main()
 {
     int num,factorial;
@@ -16,14 +16,14 @@ int main()
     return 0;
 }
 
-int Fact(int n)
+int Fact(int num)
 {
-    if (n==1)
+    if (num==1)
     {
         return 1;
     }
     else
     {
-        return n*Fact(n-1);
+        return num+Fact(num-1);
     }
 }
